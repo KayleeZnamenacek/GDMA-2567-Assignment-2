@@ -110,7 +110,7 @@ a span{
 /* -- FRAMEWORK -- */ 
 
 #choose-us{
-    width: 60%;
+    width: 78%;
     margin: auto;
 }
 
@@ -176,7 +176,7 @@ footer nav li{
     background-image: url("../img/hero.jpeg");
     background-repeat: none;
      max-width: 100%;
-    padding: 6rem 0;
+    padding: 19rem 0;
 }*/
 
 /* -- NAVIGATION -- */
@@ -197,6 +197,12 @@ nav li{
     background-position: 0 -20px;
 }
 
+
+@media only screen and (max-width: 780px){
+    header nav, header div:nth-child(3) .btn-learn{
+        display: none;
+    }
+}
 
 /*--------------------------------------------------------------
 7.0 - UTILITIES
