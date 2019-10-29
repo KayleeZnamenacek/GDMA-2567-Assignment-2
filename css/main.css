@@ -39,6 +39,7 @@
 
 *{
     font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
 }
 
 
@@ -50,6 +51,27 @@
 
 a{
     text-decoration: none;
+    font-weight: 600;
+    color: #000;
+}
+header a{
+    color: #000;
+}
+
+header a:hover{
+    color: #018333;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+body>header p{
+    font-weight: 500;
+}
+p{
+    font-weight: 100;
 }
 
 li{
@@ -59,8 +81,148 @@ li{
 ul{
     padding-left: 0;
 }
+a span{ 
+    display: none;
+}
+#social a{
+     width: 20px;
+    height: 20px;
+}
+
+.bg-green p:first-child{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.bg-green p:last-child{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
 
 
+#bg-image p{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+/*--------------------------------------------------------------
+5.0 - OBJECTS 
+-------------------------------------------------------------- */
+
+/* -- FRAMEWORK -- */ 
+
+#choose-us{
+    width: 60%;
+    margin: auto;
+}
+
+#choose-us div{
+    padding-left: 1em;
+}
+
+#services{
+    width: 70%
+}
+
+#bg-image div{
+    width: 50%;
+    margin-left: 8rem;
+
+}
+
+footer nav li{
+    display: block;
+}
+
+@media only screen and (min-width: 936px){
+    #choose-us{
+        width: 72%
+    }
+    
+    #services{
+        width: 90%;
+    }
+}
 
 
+/*--------------------------------------------------------------
+6.0 - COMPONENTS 
+-------------------------------------------------------------- */
+
+/* -- BUTTONS -- */ 
+
+.btn-learn{
+    background-color: #2674DE;
+    border-radius: .4rem;
+    padding: .4rem;
+    width: 10rem;
+    color: #fff;
+}
+.btn-learn:hover{
+    background-color: #4A96FF;
+    
+}
+
+.btn-learn a {
+    color: #fff;
+}
+
+
+.learn-more a:hover{
+     color: #018333;
+}
+
+/* -- HEADER -- */ 
+/*
+#bg-image{
+    background-image: url("../img/hero.jpeg");
+    background-repeat: none;
+     max-width: 100%;
+    padding: 6rem 0;
+}*/
+
+/* -- NAVIGATION -- */
+
+nav li{
+    display: inline-block;
+    margin-left: .4rem
+}
+#social li:first-child a{
+    background: url("../ing/instagram-sprite.gif") no-repeat 0 0;   
+}
+
+#social li:last-child a{
+    background: url(../img/instagram-sprite.gif) no-repeat 0 0;
+}
+
+#social li:first-child a:hover, #social li:last-child a:hover{
+    background-position: 0 -20px;
+}
+
+
+/*--------------------------------------------------------------
+7.0 - UTILITIES
+-------------------------------------------------------------- */
+
+/* -- ALIGNMENT -- */ 
+
+.f-none{
+    float: none;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.bg-green{
+   background-color: #018333;
+    color: #fff;
+    padding: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+
+footer{
+    background-color: #F4F4F4;
+    padding-top: 3rem;
+    
+}
 
