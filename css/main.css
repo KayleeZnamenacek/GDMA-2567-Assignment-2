@@ -102,6 +102,7 @@ a span{
 #bg-image p{
     font-weight: 700;
     font-size: 1.2rem;
+    color: #fff;
 }
 /*--------------------------------------------------------------
 5.0 - OBJECTS 
@@ -171,14 +172,14 @@ footer nav li{
 }
 
 /* -- HEADER -- */ 
-/*
-#bg-image{
-    background-image: url("../img/hero.jpeg");
-    background-repeat: none;
-     max-width: 100%;
-    padding: 19rem 0;
-}*/
 
+#bg-image{
+    background: url("../img/bg-hero.jpg") no-repeat center; 
+    background-size: cover;
+    max-width: 100%;
+    padding: 20em 0;
+}
+   
 /* -- NAVIGATION -- */
 
 nav li{
