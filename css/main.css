@@ -67,6 +67,9 @@ h2{
     font-size: 1.4rem;
 }
 
+#txt-green h3{
+    color:  #018333;
+}
 body>header p{
     font-weight: 500;
 }
@@ -162,7 +165,7 @@ footer nav li{
     
 }
 
-.btn-learn a {
+.btn-learn a,.btn-learn a:hover {
     color: #fff;
 }
 
